@@ -1,4 +1,12 @@
 ColesRails::Application.routes.draw do
+  get "kart_pass/open"
+
+  get "kart_pass/join"
+
+  get "kart_pass/stats"
+
+  get "kart_pass/close"
+
   get "welcome/index"
 
   # The priority is based upon order of creation:
