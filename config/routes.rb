@@ -1,4 +1,6 @@
 ColesRails::Application.routes.draw do
+  resources :licences
+
   get "kart_pass/open"
 
   get "kart_pass/join"
